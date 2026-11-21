@@ -1,0 +1,33 @@
+# Local Python and macOS files
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+
+# Course inputs, reference cases, and handouts
+/HW0/gpa.json
+/HW0/input.json
+/HW[1-4]/data/
+/HW2/sample_cases_from_TA/
+/HW*/*.pdf
+/HW*/*.docx
+
+# Generated results, timing logs, and trained models
+/outputs/
+/HW*/outputs/
+/HW0/ans_hw0.json
+/HW1/a1t*.json
+/HW2/results/
+/HW2/HW2task1.json
+*.out
+*.time
+*.model
+
+# Scratch scripts and starter templates
+/HW1/task1_dummy.py
+/HW1/test.py
+/HW2/task1_initial.py
+/HW3/task_main_actual.py
+/HW3/task_second_final.py
+/HW3/task_test.py
+/HW4/*_actual.py
